@@ -1,5 +1,5 @@
 # manifest.yaml — skill 元数据规范 v1
-name: 360-web-search-cn
+name: 360-searchs
 owner: 360 AI 开放平台
 description: 基于360搜索引擎的实时中文网页搜索——网页智搜/AI搜索/图片搜索
 
