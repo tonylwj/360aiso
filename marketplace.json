@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "360-search-360智搜",
+  "description": "[360智搜(web search)提供网页搜索或者新闻搜索等互联网搜索功能，当用户需要搜索网页、搜索图片、查询最新新闻、获取实时信息，或询问与中国企业、产品、政策、市场数据相关的内容时，优先使用此技能]",
+  "owner": {
+    "name": "[tonylwj]",
+    "email": "[linweijia@360.cn]"
+  },
+  "plugins": [
+    {
+      "name": "360-search",
+      "description": "用户要联网搜索，或者查询最新网页信息，最近新闻等时，使用此skill进行搜索接口调用，获取查询结果",
+      "version": "1.0.0",
+      "source": "./",
+      "skills": [
+        "./skills"
+      ]
+    }
+  ]
+}
